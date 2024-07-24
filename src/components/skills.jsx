@@ -5,8 +5,10 @@ const Skills = () => {
     <div className="py-24 px-20">
       <div className="flex flex-col gap-12 items-center">
         <div className="flex flex-col gap-4 text-xl">
-          <div className=" py-1 flex justify-center rounded-2xl bg-[#E5E7EB]">
-            Skills
+          <div className="flex justify-center">
+            <span className=" py-1 px-5 text-center rounded-2xl bg-[#E5E7EB]">
+              Skills
+            </span>
           </div>
           <p className="text-[#4B5563] text-center">
             The skills, tools and technologies I am really good at:
