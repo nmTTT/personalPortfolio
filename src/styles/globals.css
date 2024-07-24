@@ -5,3 +5,15 @@
 * {
   font-family: "Inter";
 }
+
+.skillsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.skillsBox > img {
+  width: 64px;
+  height: 64px;
+}
