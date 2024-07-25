@@ -1,6 +1,9 @@
 import { IoMdMenu } from "react-icons/io";
 import { PiMoonStarsLight } from "react-icons/pi";
 import { PiSunLight } from "react-icons/pi";
+import { useState, useEffectffect } from "react";
+
+let navBar = [{}];
 
 const Header = () => {
   return (

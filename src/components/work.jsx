@@ -1,13 +1,11 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
+import Label from "./label";
 
 const Work = () => {
   return (
     <div className="w-[100%] px-20 py-24 flex flex-col items-center gap-12">
       <div className="flex flex-col gap-4 text-center">
-        <div>
-          {" "}
-          <span className="py-1 px-5 rounded-2xl bg-[#E5E7EB]">Work</span>
-        </div>
+        <Label text="Work" />
         <div className="text-[#4B5563]">
           Some of the noteworthy projects I have built:
         </div>

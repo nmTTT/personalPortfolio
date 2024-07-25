@@ -1,13 +1,12 @@
 import { PiDotOutlineFill } from "react-icons/pi";
+import Label from "./label";
 
 const About = () => {
   return (
     <div className="bg-[#F9FAFB] py-24 px-20">
       {" "}
       <div className="flex flex-col gap-12">
-        <div className="flex justify-center w-full">
-          <p className="px-5 py-1 rounded-2xl bg-[#E5E7EB]">About me</p>
-        </div>
+        <Label text="About" />
         <div className="flex justify-around w-[95%] h-4/5">
           <div className="w-2/5 h-4/5">
             <img

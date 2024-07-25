@@ -4,17 +4,14 @@ import { IoCopyOutline } from "react-icons/io5";
 import { LuGithub } from "react-icons/lu";
 import { CiTwitter } from "react-icons/ci";
 import { FaFigma } from "react-icons/fa";
+import Label from "./label";
 
 const Contact = () => {
   return (
     <div className="px-20 py-24">
       <div className="flex flex-col gap-12 items-center">
         <div className="flex flex-col gap-4 text-center">
-          <div>
-            <span className="py-1 px-5 text-center rounded-2xl bg-[#E5E7EB]">
-              Get in touch
-            </span>
-          </div>
+          <Label text="Get in Touch" />
           <div className="w-[30rem]">
             <span className="text-[#4B5563] text-lg">
               What’s next? Feel free to reach out to me if you're looking for a
