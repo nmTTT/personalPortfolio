@@ -15,8 +15,8 @@ const Header = () => {
             <button>Testimonials</button>
             <button>Contact</button>
             <div className=" sm: h-6 w-0 border"></div>
-            <button className="hidden sm: block">
-              <PiMoonStarsLight />
+            <button className="sm: block">
+              <PiSunLight />
             </button>
             <button className=" sm: px-4 py-1.5 bg-black rounded-xl text-white">
               Download CV
