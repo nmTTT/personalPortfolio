@@ -35,15 +35,13 @@ const Jobs = () => {
   return (
     <div className="flex flex-col gap-12">
       {job.map((value) => (
-        <div className="flex gap-12 justify-between dark: bg-gray-700 rounded-xl p-8">
+        <div className="flex gap-12 justify-between bg-white dark:bg-gray-700 rounded-xl p-8">
           <img className="w-[102px] h-[28px]" src={value.logo} alt="" />
           <div className="w-96">
             <p className="font-semibold text-lg">{value.role}</p>
-            <p>
               {value.projects.map((project) => (
                 <p className="text-[#4B5563]">{project}</p>
               ))}
-            </p>
           </div>
           <div className="">{value.duration}</div>
         </div>

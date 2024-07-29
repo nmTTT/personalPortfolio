@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="py-6 px-28 flex justify-center bg-[#F9FAFB]">
-      <span className="text-center text-[#4B5563]">
+      <span className="text-center text-gray-600">
         2024 | Greetings with ❤️️ from Ulaanbaatar
       </span>
     </div>
