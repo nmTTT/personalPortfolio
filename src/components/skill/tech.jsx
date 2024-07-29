@@ -35,7 +35,7 @@ const techs = [
 
 const Tech = () => {
   return (
-    <div className="flex gap-[86px]">
+    <div className="flex flex-wrap justify-center gap-[86px]">
       {techs.map((value) => {
         return (
           <div className="flex flex-col gap-2 items-center">

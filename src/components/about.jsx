@@ -3,7 +3,7 @@ import Label from "./label";
 
 const About = () => {
   return (
-    <div className="bg-[#F9FAFB] py-24 px-20">
+    <div className="bg-gray-100 py-24 px-20 dark:bg-gray-900">
       {" "}
       <div className="flex flex-col gap-12">
         <Label text="About" />
@@ -19,7 +19,7 @@ const About = () => {
             <p className="font-semibold text-3xl">
               Curious about me? Here you have it:
             </p>
-            <div className="text-base text-[#4B5563] flex flex-col gap-4">
+            <div className="text-base text-gray-600 flex flex-col gap-4">
               <p>
                 I'm a designer turned full stack developer, passionate about
                 React.js and Node.js. I excel in blending technical and visual

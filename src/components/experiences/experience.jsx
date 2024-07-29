@@ -3,7 +3,7 @@ import Jobs from "./jobs";
 
 const Experience = () => {
   return (
-    <div className="px-20 py-24 bg-[#F9FAFB] ">
+    <div className="px-20 py-24 bg-[#F9FAFB] dark: bg-gray-800">
       <div className=" flex flex-col gap-12">
         <div className="flex flex-col gap-4 items-center">
           <Label text="Experience" />
@@ -11,7 +11,7 @@ const Experience = () => {
             Here is a quick summary of my most recent experiences:
           </div>
         </div>
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col">
           <Jobs />
         </div>
       </div>

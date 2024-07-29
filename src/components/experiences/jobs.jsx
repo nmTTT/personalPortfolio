@@ -33,18 +33,21 @@ const job = [
 
 const Jobs = () => {
   return (
-    <div className="p-8">
-      {job.map((value) => {
-        <div className="flex gap-12 justify-between">
-          <div className="flex-1">
-            <img src={value.logo} alt="" />
-          </div>
-          <div className="flex-1">
+    <div className="flex flex-col gap-12">
+      {job.map((value) => (
+        <div className="flex gap-12 justify-between dark: bg-gray-700 rounded-xl p-8">
+          <img className="w-[102px] h-[28px]" src={value.logo} alt="" />
+          <div className="w-96">
             <p className="font-semibold text-lg">{value.role}</p>
+            <p>
+              {value.projects.map((project) => (
+                <p className="text-[#4B5563]">{project}</p>
+              ))}
+            </p>
           </div>
-          <div className="flex-1"></div>
-        </div>;
-      })}
+          <div className="">{value.duration}</div>
+        </div>
+      ))}
     </div>
   );
 };

@@ -1,5 +1,15 @@
+import Header from "@/components/header";
 import "@/styles/globals.css";
+// pages/_app.js
+import { ThemeProvider } from "next-themes";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+  return (
+    <ThemeProvider attribute="class">
+      <Header />
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
+
+export default MyApp;
